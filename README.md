@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Marvel Ecommerce App
+Created by James Fleming
+# Socials
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[LinkedIn](https://www.linkedin.com/in/james--fleming/) | [GitHub](https://github.com/James-fleming394) | [Twitter](https://twitter.com/jflem394) 
 
-## Available Scripts
+James.Fleming394@gmail.com
 
-In the project directory, you can run:
+# Description
+Welcome to my **Marvel-Comics** based **Ecommerce Web Application**!  This application will be dedicated to fans of Marvel and give them the opportunity to *view comics*, *artwork* and *various other fun and interesting things related to Marvel and their characters*!  
+This Web App is created by **James Fleming**. 
 
-### `npm start`
+# Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Installation](#installation)
+- [Technology](#technology)
+- [Views](#views)
+- [Diagrams](#diagrams)
+- [Credits](#credits)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. `Fork` and `Clone`
+2. run `npm install`
+3. run `npm start`
 
-### `npm run build`
+# Technology
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. MERN Stack
+2. Axios
+3. CSS
+4. JWT Auth (Post-MVP Goal)
+5. Marvel API (Post-MVP Goal)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Views 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ![Home Page](https://i.imgur.com/LMOCokd.png)
+### ![Products Page](https://i.imgur.com/QkMAeLb.png)
+### ![Comics Page](https://i.imgur.com/pQGhOiO.png)
+### ![Toys Page](https://i.imgur.com/6W1OMkW.png)
+### ![Apparel Page](https://i.imgur.com/rxBQW6e.png)
+### ![Update Page Page](https://i.imgur.com/nmrzRgn.png)
+### ![Cart Page](https://i.imgur.com/9iFTVjo.png)
 
-### `npm run eject`
+# Diagrams
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## [Component Hierarchy Diagram](https://lucid.app/lucidchart/e36c44b7-2d17-4f25-a686-8103b6bee480/edit?viewport_loc=-238%2C40%2C2027%2C1005%2C0_0&invitationId=inv_dde0effb-4d55-4b14-81b1-4991998ec932)
+![Component Hierarchy Diagram](https://i.imgur.com/KUTaDYS.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## [Entity Relationship Diagram](https://lucid.app/lucidchart/81e94d8c-4cab-4497-8b6a-20276d52067b/edit?viewport_loc=-76%2C313%2C2011%2C997%2C0_0&invitationId=inv_8a6c2e6f-fa0f-4c16-bf64-9439b9b9b68a)
+![Entity Realtionship Diagram](https://i.imgur.com/BuctUDs.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## [Trello Board](https://trello.com/b/yM1DIRqX/marvel-ecommerce-app)
+![Trello Board](https://i.imgur.com/iPxJd44.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Credits 
 
-## Learn More
+[Project Prompt](https://github.com/SEI-R-9-19/u4_project_prompt)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[MDN](https://developer.mozilla.org/en-US/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[W3 School](https://www.w3schools.com/)
 
-### Code Splitting
+[Stack Overflow](https://stackoverflow.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[MongoDB Support](https://www.mongodb.com/home)
 
-### Analyzing the Bundle Size
+[React Support](https://reactjs.org/community/support.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Marvel API](https://developer.marvel.com/)
