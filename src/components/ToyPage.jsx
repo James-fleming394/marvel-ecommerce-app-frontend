@@ -26,7 +26,7 @@ const ToyPage = () => {
 
     useEffect(() => {
         const getToy = async () => {
-            let response = await axios.get(`http://localhost:5001/api/toys/${id}`)
+            let response = await axios.get(`https://marvel-engine-backend.herokuapp.com/api/toys/${id}`)
             setToy(response.data)
         }
         getToy()
@@ -34,7 +34,7 @@ const ToyPage = () => {
 
     const handleUpdate = async (event) => {
         event.preventDefault();
-        let response = await axios.put(`http://localhost:5001/api/toys/${id}`, formState)
+        let response = await axios.put(`https://marvel-engine-backend.herokuapp.com/api/toys/${id}`, formState)
         .then((response) => {
             return response;
         })
@@ -51,7 +51,7 @@ const ToyPage = () => {
 
     const deleteToy = async (event) => {
         event.preventDefault()
-        let response = await axios.delete(`http://localhost:5001/api/toys/${id}`)
+        let response = await axios.delete(`https://marvel-engine-backend.herokuapp.com/api/toys/${id}`)
         setToy(response);
     }
 

@@ -19,7 +19,7 @@ const AllApparelProducts = () => {
 
     useEffect(() => {
         const apiCall = async () => {
-            let response = await axios.get('http://localhost:5001/api/apparel')
+            let response = await axios.get('https://marvel-engine-backend.herokuapp.com/api/apparel')
             showApparel(response.data.allApparel)
         }
         apiCall();
@@ -36,7 +36,7 @@ const AllApparelProducts = () => {
 
     const handleSubmit = async (event) => {
 
-        let newApparel = await axios.post(`http://localhost:5001/api/apparel`, formState)
+        let newApparel = await axios.post(`https://marvel-engine-backend.herokuapp.com/api/apparel`, formState)
         .then((response) => {
             return response
         })

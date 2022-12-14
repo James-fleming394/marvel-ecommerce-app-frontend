@@ -26,7 +26,7 @@ const ComicPage = () => {
 
     useEffect(() => {
         const getComic = async () => {
-            let response = await axios.get(`http://localhost:5001/api/comics/${id}`)
+            let response = await axios.get(`https://marvel-engine-backend.herokuapp.com/api/comics/${id}`)
             setComic(response.data)
         }
         getComic()
@@ -34,7 +34,7 @@ const ComicPage = () => {
 
     const handleUpdate = async (event) => {
         event.preventDefault();
-        let response = await axios.put(`http://localhost:5001/api/comics/${id}`, formState)
+        let response = await axios.put(`https://marvel-engine-backend.herokuapp.com/api/comics/${id}`, formState)
         .then((response) => {
             return response;
         })
@@ -52,7 +52,7 @@ const ComicPage = () => {
 
     const deleteComic = async (event) => {
         event.preventDefault()
-        let response = await axios.delete(`http://localhost:5001/api/comics/${id}`)
+        let response = await axios.delete(`https://marvel-engine-backend.herokuapp.com/api/comics/${id}`)
         setComic(response);
         navigate(`/comics`)
     }

@@ -19,7 +19,7 @@ const AllComicProducts = () => {
 
     useEffect(() => {
         const apiCall = async () => {
-            let response = await axios.get('http://localhost:5001/api/comics')
+            let response = await axios.get('https://marvel-engine-backend.herokuapp.com/api/comics')
             showComic(response.data.allComics)
         }
         apiCall();
@@ -36,7 +36,7 @@ const AllComicProducts = () => {
 
     const handleSubmit = async (event) => {
 
-        let newComic = await axios.post(`http://localhost:5001/api/comics`, formState)
+        let newComic = await axios.post(`https://marvel-engine-backend.herokuapp.com/api/comics`, formState)
         .then((response) => {
             return response
         })

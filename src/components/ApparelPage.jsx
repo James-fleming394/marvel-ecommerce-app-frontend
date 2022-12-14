@@ -26,7 +26,7 @@ const ApparelPage = () => {
 
     useEffect(() => {
         const getApparel = async () => {
-            let response = await axios.get(`http://localhost:5001/api/apparel/${id}`)
+            let response = await axios.get(`https://marvel-engine-backend.herokuapp.com/api/apparel/${id}`)
             setApparel(response.data)
         }
         getApparel()
@@ -34,7 +34,7 @@ const ApparelPage = () => {
 
     const handleUpdate = async (event) => {
         event.preventDefault();
-        let response = await axios.put(`http://localhost:5001/api/apparel/${id}`, formState)
+        let response = await axios.put(`https://marvel-engine-backend.herokuapp.com/api/apparel/${id}`, formState)
         .then((response) => {
             return response;
         })
@@ -51,7 +51,7 @@ const ApparelPage = () => {
 
     const deleteApparel = async (event) => {
         event.preventDefault()
-        let response = await axios.delete(`http://localhost:5001/api/apparel/${id}`)
+        let response = await axios.delete(`https://marvel-engine-backend.herokuapp.com/api/apparel/${id}`)
         setApparel(response);
     }
 

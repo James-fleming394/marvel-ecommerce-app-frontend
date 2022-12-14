@@ -19,7 +19,7 @@ const AllToyProducts = () => {
 
     useEffect(() => {
         const apiCall = async () => {
-            let response = await axios.get('http://localhost:5001/api/toys')
+            let response = await axios.get('https://marvel-engine-backend.herokuapp.com/api/toys')
             showToy(response.data.allToys)
         }
         apiCall();
@@ -36,7 +36,7 @@ const AllToyProducts = () => {
 
     const handleSubmit = async (event) => {
 
-        let newToy = await axios.post(`http://localhost:5001/api/toys`, formState)
+        let newToy = await axios.post(`https://marvel-engine-backend.herokuapp.com/api/toys`, formState)
         .then((response) => {
             return response
         })
