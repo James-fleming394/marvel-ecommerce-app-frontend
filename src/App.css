@@ -1,7 +1,7 @@
 /* Launchpad CSS */
 
 body {
-  background-image: url("/Users/james/ga_seir/projects/marvel-ecommerce-app/client/src/assets/img/marvel-background.jpg");
+  background-image: url("/public/img/marvel-background.jpg");
   background: auto;
   background-size: cover;
   margin: 0;
