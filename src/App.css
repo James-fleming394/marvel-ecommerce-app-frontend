@@ -1,0 +1,514 @@
+/* Launchpad CSS */
+
+body {
+  background-image: url("/Users/james/ga_seir/projects/marvel-ecommerce-app/client/src/assets/img/marvel-background.jpg");
+  background: auto;
+  background-size: cover;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.launchpad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  margin-top: 6%;
+  margin-left: 18%;
+  height: 40vh;
+  padding: 90px;
+  position: absolute;
+  opacity: 95%;
+  border: 5px red outset;
+  border-radius: 100px;
+  background-image: linear-gradient(
+    -45deg, 
+    rgb(210, 116, 116) 0%, 
+    rgb(255, 255, 255) 25%, 
+    rgb(221, 182, 182) 51%, 
+    rgb(246, 246, 246) 100%
+  );
+}
+
+.launchpad:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.title {
+  font-size: 45px;
+  color: red;
+  margin-top: -40px;
+  margin-bottom: -15px;
+}
+
+.launch-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.launch-button:hover {
+  opacity: 1;
+}
+
+.launch-button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Navbar CSS */
+
+.navbar {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: inline-flex;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-links {
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  position: static;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.navbar-link:hover {
+  background-color: darkgrey;
+  opacity: .7;
+  color: white;
+}
+
+.marvel-logo {
+  width: 8%;
+  padding: 5px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.cart {
+  width: 5%;
+}
+
+.search-icon {
+  width: 100%;
+}
+
+.search-button {
+  height: 5%;
+  width: 2%;
+}
+
+.search-bar-input {
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+/* Register CSS */
+
+.register {
+  text-align: center;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 95%;
+  border: 5px red outset;
+  border-radius: 100px;
+  background-image: linear-gradient(
+    -45deg, 
+    rgb(210, 116, 116) 0%, 
+    rgb(255, 255, 255) 25%, 
+    rgb(221, 182, 182) 51%, 
+    rgb(246, 246, 246) 100%
+  );
+}
+
+.register:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.register-title {
+  font-size: x-large;
+  color: red;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  color: red;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px red outset;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.register-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.register-button:hover {
+  opacity: 1;
+}
+
+.register-button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Cart CSS */
+
+.checkout {
+  margin: 30px;
+  padding: 30px;
+  background-color: grey;
+  opacity: 95%;
+  border: 5px red outset;
+  background-image: linear-gradient(
+    -45deg, 
+    rgb(210, 116, 116) 0%, 
+    rgb(255, 255, 255) 25%, 
+    rgb(221, 182, 182) 51%, 
+    rgb(246, 246, 246) 100%
+  );
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.bag-wishlist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary, h2 {
+  width: 500%;
+}
+
+/* Home Page CSS */
+
+.home-page {
+  background-color: whitesmoke;
+  opacity: .95;
+  margin: 15px;
+  border: 5px red outset;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.sale {
+  text-align: center;
+  color: red;
+}
+
+.home-page2 {
+  background-color: whitesmoke;
+  opacity: .95;
+  margin: 15px;
+  border: 5px red outset;
+  border-radius: 100px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.sale-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sale-pic {
+  width: 300px;
+}
+
+.sale-button {
+  background-color: black;
+  border: none;
+  color: red;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.sale-button:hover {
+  opacity: 1;
+}
+
+.sale-button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Products Page */
+
+.product-category {
+  background-color: whitesmoke;
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 15px;
+  height: 60vh;
+  position: relative;
+  margin-top: 150px;
+  border: 5px red outset;
+  cursor: pointer;
+}
+
+
+.category-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: flex;
+  margin: auto;
+}
+
+.title-category {
+  position: absolute;
+  font-size: 25px;
+  width: 90%;
+  height: 90%;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-button {
+  background-color: black;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  opacity: 0.9;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.category-button:hover {
+  opacity: 1;
+}
+
+.category-button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Comic Products Page */
+
+.sale-header {
+  background-color: whitesmoke;
+  margin: 35px 25px 0 25px;
+  opacity: .95;
+  border: 5px red outset;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+
+.update-form {
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
+}
+
+.comic-view {
+  background-color: whitesmoke;
+  margin: 35px 25px 0 25px;
+  opacity: .95;
+  border: 5px red outset;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+}
+
+.comics-product-page {
+  background-color: whitesmoke;
+  margin: 35px 25px 0 25px;
+  opacity: .95;
+  border: 5px red outset;
+}
+
+.comics-product:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.comics-product {
+  padding-top: 35px;
+  display: flex;
+  margin: 5px;
+}
+
+.comics-image {
+  width: 250px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.comic-info {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.comic-button {
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  opacity: 0.9;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.comic-button:hover {
+  opacity: 1;
+}
+
+.comic-button:active {
+  background-color: darkred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.back-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px;
+}
+
+.add-comic {
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* Footer CSS */
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  bottom: 0;
+  width: 100%;
+  margin-top: 300px;
+}
+
+
+.social-icons {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.social-icons a::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #ff0000;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover::before {
+  transform: scale(1);
+}
+
+.social-icons a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
