@@ -1,5 +1,8 @@
 # Marvel Ecommerce App
+
+## [Deployed Site](https://marvel-engine-app.herokuapp.com/)
 Created by James Fleming
+
 # Socials
 
 [LinkedIn](https://www.linkedin.com/in/james--fleming/) | [GitHub](https://github.com/James-fleming394) | [Twitter](https://twitter.com/jflem394) 
@@ -34,6 +37,8 @@ This Web App is created by **James Fleming**.
 5. Marvel API (Post-MVP Goal)
 
 # Views 
+
+## [Deployed Site](https://marvel-engine-app.herokuapp.com/)
 
 ### ![Home Page](https://i.imgur.com/LMOCokd.png)
 ### ![Products Page](https://i.imgur.com/QkMAeLb.png)
