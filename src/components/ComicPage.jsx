@@ -47,7 +47,6 @@ const ComicPage = () => {
             img: '',
             price: ''
         })
-        navigate(`/comics`)
     }
 
     const deleteComic = async (event) => {
